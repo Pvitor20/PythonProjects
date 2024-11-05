@@ -1,4 +1,3 @@
-# TelaLogin.py
 from tkinter import *
 from tkinter import messagebox
 import database
@@ -36,12 +35,12 @@ def cadastrar_usuario():
     messagebox.showinfo("Sucesso", "Cadastro realizado com sucesso!")
     return_to_login()
 
-# Configuração da janela principal
+#Tela inicial
 janela = Tk()
 janela.title("Relato Popular")
 janela.geometry("300x400")
 
-# Tela Inicial
+
 tela_inicial = Frame(janela)
 tela_inicial.pack(fill="both", expand=True)
 
